@@ -1,0 +1,1 @@
+ts\n// Stub plugin – usado apenas para o build no Vercel\n// O plugin completo é gerado localmente durante o desenvolvimento.\nimport type { Plugin } from 'vite';\n\nexport const sites = (options?: any): Plugin => ({\n  name: 'sites-stub',\n  config(){ /* nada */ },\n});\n
